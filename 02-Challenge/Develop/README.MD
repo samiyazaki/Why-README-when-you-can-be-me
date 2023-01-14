@@ -1,6 +1,6 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-  # seiya
+  # readme gen
   
   ## Table of Contents
   - [Description](#description)
@@ -12,26 +12,26 @@
   - [[Questions](#questions)
 
   ## Description
-  seiya
+  It's a readme generator
 
   ## Installation
-  seiya
+  inquirer
   
   ## Usage
-  seiya
+  used to build readmes
   
   ## Contributing
-  seiya
+  dont'
   
   ## Tests
-  seay
+  create an issue in github
   
   ## License
-  MIT
+  https://choosealicense.com/licenses/mit/
   
   ## Questions
-  seiya
+  https://github.com/samiyazaki/Why-README-when-you-can-be-me
   undefined
-  seiya
+  smsmiyazaki@gmail.com
   
   
