@@ -1,12 +1,15 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+// module.exports = generateMarkdown;
+
+// const generateMarkdown = require('./utils/generateMarkdown.js');
 
 inquirer
   .prompt([
     {
       type: 'input',
-      message: 'What is your name?',
+      message: 'What is your Project called?',
       name: 'name',
     },
     {
@@ -17,18 +20,15 @@ inquirer
     },
     {
       type: 'list',
-      message: 'What is your preferred method of communication?',
-      name: 'contact',
-      choices: ['Phone', 'email', 'pidgeon', 'smoke signal'],
+      message: 'What license did you use?',
+      name: 'license',
+      choices: ['MIT', 'email', 'pidgeon', 'smoke signal'],
     },
+
   ])
-// .then((data) => {
-//     const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
-//   fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
-//   err ? console.error(err) : console.log('Success!'));
-// });
 
 .then(answers => {
+
   const marked = require(`marked`);
   marked.setOptions({
     gfm: true,
@@ -37,7 +37,7 @@ inquirer
   let markdown = 
   `# ${answers.name}
   ##  My preferred developer tool is ${answers.stack}
-  ## If you need to reach me, ${answers.contact} is best.
+  ## If you need to reach me, ${answers.license} is best.
   ## You can contact me through LinkedIn at : ${answers.linkedIn}
   ## Or check out my repo at : ${answers.GitHub}`;
   
@@ -47,11 +47,6 @@ inquirer
 });
 
 
-// TODO: Create an array of questions for user input
-const questions = [];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {}
