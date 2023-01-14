@@ -29,6 +29,11 @@ inquirer
 // });
 
 .then(answers => {
+  const marked = require(`marked`);
+  marked.setOptions({
+    gfm: true,
+    breaks: true,
+  });
   let markdown = `
                   #${answers.name}
                   ##  My preferred developer tool is ${answers.stack}
@@ -36,7 +41,7 @@ inquirer
                   ## You can contact me through LinkedIn at : ${answers.linkedIn}
                   ## Or check out my repo at : ${answers.GitHub}
          `;
-  fs.writeFile('README.MD', markdown, (err) =>
+  fs.writeFile('README.md', markdown, (err) =>
   err ? console.error(err) : console.log('Success!')); 
 });
 
