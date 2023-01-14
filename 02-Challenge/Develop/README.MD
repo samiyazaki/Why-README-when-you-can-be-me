@@ -1,6 +1,6 @@
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-  # sieya
+  undefined
+  # readme gen
   
   ## Table of Contents
     [Description](#Description)
@@ -13,28 +13,28 @@
     [Email](#email)
 
   ## Description {#Description}
-  
+  it makes readmes
 
   ## Installation
-  a
+  inquirer vs code
   
   ## Usage
-  a
+  by filling in command line prompts
   
   ## contribute
-  a
+  please dont its very bad
   
   ## Test
-  a
+  place an issue in github
   
   ## License
-  Licensed under the https://choosealicense.com/licenses/mit/ license
+  Licensed under the undefined license
   
   ## Github
-  a
+  samiyazaki
   undefined
   
   ## Email
-  a
+  smsmiyazaki@gmail.com
   
   
