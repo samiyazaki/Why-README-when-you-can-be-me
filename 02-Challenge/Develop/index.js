@@ -1,55 +1,76 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-// module.exports = generateMarkdown;
+const util = require('util');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
-// const generateMarkdown = require('./utils/generateMarkdown.js');
-
-inquirer
-  .prompt([
+const questions = [
     {
       type: 'input',
       message: 'What is your Project called?',
-      name: 'name',
+      name: 'title',
+    },
+    {
+      type: 'input',
+      message: 'Write a short description of your project.',
+      name: 'description',
+    },
+    {
+      type: 'input',
+      message: 'What do you need to install for your project to work?',
+      name: 'install',
+    },
+    {
+      type: 'input',
+      message: 'How is your project utilized?',
+      name: 'usage',
+    },
+    {
+      type: 'input',
+      message: 'How can users contribute to your project?',
+      name: 'contribute',
+    },
+    {
+      type: 'input',
+      message: 'How should users submit issues or test your project?',
+      name: 'test',
     },
     {
         type: 'checkbox',
-        message: 'What is your pdeveloper tool?',
-        name: 'stack',
-        choices: ['HTML', 'CSS', 'JavaScript', 'MySQL'],
+        message: 'Which license did you use?',
+        name: 'license',
+        choices: ['MIT', 'Apache', 'BNU', 'ISC'],
     },
     {
-      type: 'list',
-      message: 'What license did you use?',
-      name: 'license',
-      choices: ['MIT', 'email', 'pidgeon', 'smoke signal'],
+      type: 'input',
+      message: 'What is your GitHub username?',
+      name: 'name',
     },
-
-  ])
-
-.then(answers => {
-
-  const marked = require(`marked`);
-  marked.setOptions({
-    gfm: true,
-    breaks: true,
-  });
-  let markdown = 
-  `# ${answers.name}
-  ##  My preferred developer tool is ${answers.stack}
-  ## If you need to reach me, ${answers.license} is best.
-  ## You can contact me through LinkedIn at : ${answers.linkedIn}
-  ## Or check out my repo at : ${answers.GitHub}`;
+    {
+      type: 'input',
+      message: 'What is your Email Address?',
+      name: 'name',
+    },
+  ];
+  
+function init() {
+  return inquirer.prompt(questions)
+    .then(data => {
+      const markdown = generateMarkdown(data)
+  
+  // let markdown = 
+  // `# ${answers.name}
+  // ##  My preferred developer tool is ${answers.stack}
+  // ## If you need to reach me, ${answers.license} is best.
+  // ## You can contact me through LinkedIn at : ${answers.linkedIn}
+  // ## Or check out my repo at : ${answers.GitHub}`;
   
          
-  fs.writeFile('README.md', markdown, (err) =>
-  err ? console.error(err) : console.log('Success!')); 
-});
-
-
-
-// TODO: Create a function to initialize app
-function init() {}
+  fs.writeFile('README.md', markdown, function(err) {
+  if (err) { console.error(`error`, err)
+     } else { console.log('Success!')}
+})
+})
+}
 
 // Function call to initialize app
 init();

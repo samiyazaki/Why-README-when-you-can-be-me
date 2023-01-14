@@ -1,6 +1,5 @@
 # Seiya
-  ##  My preferred developer tool is 
-  ## If you need to reach me, pidgeon is best.
-  ## You can contact me through LinkedIn at : undefined
-  ## Or check out my repo at : undefined
-  module.exports = generateMarkdown;
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  https://choosealicense.com/licenses/mit/
+  Licensed under the https://choosealicense.com/licenses/mit/ license
+
