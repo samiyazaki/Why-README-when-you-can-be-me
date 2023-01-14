@@ -11,7 +11,7 @@ inquirer
     },
     {
         type: 'checkbox',
-        message: 'What is your preferred method of communication?',
+        message: 'What is your pdeveloper tool?',
         name: 'stack',
         choices: ['HTML', 'CSS', 'JavaScript', 'MySQL'],
     },
@@ -31,8 +31,8 @@ inquirer
 .then(answers => {
   let markdown = `
                   #${answers.name}
-                  ## You are located in ${answers.location}
-                  ## A little bit about me is: ${answers.bio}
+                  ##  My preferred developer tool is ${answers.stack}
+                  ## If you need to reach me, ${answers.contact} is best.
                   ## You can contact me through LinkedIn at : ${answers.linkedIn}
                   ## Or check out my repo at : ${answers.GitHub}
          `;
