@@ -1,40 +1,37 @@
 
-  undefined
-  # readme gen
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  # seiya
   
   ## Table of Contents
-    [Description](#Description)
-    [Install](#install)
-    [Usage](#usage)
-    [Contribute](#contribute)
-    [Test](#test)
-    [License](#license)
-    [GitHub](#github)
-    [Email](#email)
+  - [Description](#description)
+  - [Install](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [License](#license)
+  - [[Questions](#questions)
 
-  ## Description {#Description}
-  it makes readmes
+  ## Description
+  seiya
 
   ## Installation
-  inquirer vs code
+  seiya
   
   ## Usage
-  by filling in command line prompts
+  seiya
   
-  ## contribute
-  please dont its very bad
+  ## Contributing
+  seiya
   
-  ## Test
-  place an issue in github
+  ## Tests
+  seay
   
   ## License
-  Licensed under the undefined license
+  MIT
   
-  ## Github
-  samiyazaki
+  ## Questions
+  seiya
   undefined
-  
-  ## Email
-  smsmiyazaki@gmail.com
+  seiya
   
   
