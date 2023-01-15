@@ -17,19 +17,17 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   const licenseLinks= {
-    MIT: `https://choosealicense.com/licenses/mit/`,
-    GNU: `https://choosealicense.com/licenses/gpl-3.0/`,
-    Apache: `https://choosealicense.com/licenses/apache-2.0/`,
-    ISC: `https://choosealicense.com/licenses/isc/`,
+    MIT: `[MIT](https://choosealicense.com/licenses/mit/)`,
+    GNU: `[GNU](https://choosealicense.com/licenses/gpl-3.0/)`,
+    Apache: `[Apache](https://choosealicense.com/licenses/apache-2.0/)`,
+    ISC: `[ISC](https://choosealicense.com/licenses/isc/)`,
   }
   return licenseLinks[license]
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license) {
-    return `${renderLicenseLink(license)}`
+    return `Licensed under the ${renderLicenseLink(license)} license.`
   } else {
     return ``
   }
@@ -49,7 +47,7 @@ function generateMarkdown(data) {
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [License](#license)
-  - [[Questions](#questions)
+  - [Questions](#questions)
 
   ## Description
   ${data.description}
@@ -70,9 +68,9 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
   
   ## Questions
-  ${data.github}
-  ${data.link}
-  ${data.email}
+  This is my GitHub Username: ${data.github}\n
+  This is a link to my GitHub account: ${data.link}\n
+  If you'd like to reach out to me by email, here's the info: ${data.email}
   
   `;
 };

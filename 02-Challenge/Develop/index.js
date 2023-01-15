@@ -47,6 +47,11 @@ const questions = [
   },
   {
     type: "input",
+    message: "What is your GitHub Url?",
+    name: "link",
+  },
+  {
+    type: "input",
     message: "What is your Email Address?",
     name: "email",
   },
