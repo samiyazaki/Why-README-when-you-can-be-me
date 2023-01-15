@@ -12,19 +12,19 @@
   - [Questions](#questions)
 
   ## Description
-  This is a fantastic README generator tool that allows the user to input data about their project and output a professional README document
+  Command line generated README file in Markdown to somewhat automate the process of developing a professional README
 
   ## Installation
-  You should have node.js and inquirer 8.4.2 for this application
+  inquirer, node 
   
   ## Usage
-  It is utilized through command prompts that convert user inputs into a markdown format
+  This project is utilized by entering commands in the terminal to describe the functionality of your project
   
   ## Contributing
-  You can contribute through my GitHub account
+  You can contribute by going to my GitHub and providing comments or pushing changes
   
   ## Tests
-  Please post issues to the Github repo with what you find and a brief description.
+  You can go to my GitHub repo and post an issue or leave a detailed comment
   
   ## License
   Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
