@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Why README when you can be me?</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+      function redirect() {
+        window.location.href = "https://github.com/samiyazaki/Why-README-when-you-can-be-me";
+      }
+
+      function changeColor(btn) {
+        btn.style.backgroundColor = "red";
+        btn.innerHTML = "not me";
+      }
+    </script>
+  </head>
+  <body>
+    <table id = "myTable">
+      <tr>
+        <td><button onclick="changeColor(this)">click me</button></td>
+        <td><button onclick="changeColor(this)">click me</button></td>
+        <td><button onclick="changeColor(this)">click me</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="changeColor(this)">click me</button></td>
+        <td><button onclick="redirect()">click me</button></td>
+        <td><button onclick="changeColor(this)">click me</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="changeColor(this)">click me</button></td>
+        <td><button onclick="changeColor(this)">click me</button></td>
+        <td><button onclick="changeColor(this)">click me</button></td>
+      </tr>
+    </table>
+    <div style="text-align:center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1yp-sUVDUUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  </body>
+</html>

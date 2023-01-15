@@ -1,6 +1,6 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-  # Why-README-when-you-can-be-me
+  # Why-README-when-you-can-be-me 
   
   ## Table of Contents
   - [Description](#description)
@@ -12,25 +12,25 @@
   - [Questions](#questions)
 
   ## Description
-  Command line generated README file in Markdown to somewhat automate the process of developing a professional README
+  This is a simplified README generator for the developer on the go. You can simply answer a few prompts and allow the program to generate a markdown file for you to include with all of your future builds.
 
   ## Installation
-  inquirer, node 
+  Node.js and inquirer 8.2.4
   
   ## Usage
-  This project is utilized by entering commands in the terminal to describe the functionality of your project
+  This project is a command-line tool that generates a markdown file for a README. The user runs the script by using the command node index.js, and then the script prompts the user with a series of questions to gather information about their project. The user provides the necessary information for each question and then the script will use this information to generate a markdown file for the README. The markdown file will be saved in the root directory with the name "README.md". The user can then open the README.md file to view the generated markdown and edit it as needed.
   
   ## Contributing
-  You can contribute by going to my GitHub and providing comments or pushing changes
+  Users can contribute by adding to the GitHub repo and creating branches to test it out for themselves.
   
   ## Tests
-  You can go to my GitHub repo and post an issue or leave a detailed comment
+  Please create an issue in the Repo for me to review with a short description of the problem or results of your tests.
   
   ## License
   Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
   
   ## Questions
-  This is my GitHub Username: samiyazaki
+  This is my GitHub Username: Samiyazaki
 
   This is a link to my GitHub account: https://github.com/samiyazaki
 
