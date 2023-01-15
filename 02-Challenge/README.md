@@ -6,6 +6,10 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=samiyazaki" alt="samiyazaki" /></a> </p>
 
 - 🔭 I'm currently working on [Why-README-when-you-can-be-me](https://github.com/samiyazaki/Why-README-when-you-can-be-me)
+<video width="320" height="240" controls>
+  <source src="\assets\Why README when you can be me.mp4" type="video/mp4">
+</video>
+
 
 - 🌱 I'm currently learning **javaScript, node, inquirer, markdown and NPM**
 
