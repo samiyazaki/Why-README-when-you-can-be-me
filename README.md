@@ -7,7 +7,7 @@
 
 - 🔭 I'm currently working on [Why-README-when-you-can-be-me](https://github.com/samiyazaki/Why-README-when-you-can-be-me)
 <img src="02-Challenge\assets\why readme when you can be me.gif" alt = "GIF of a program being utilized to create a README file"></a>
-[Watch this video](https://youtu.be/1yp-sUVDUUg)
+[Watch this video](https://youtu.be/HOmC2_qyWwI)
 
 ## This is a simplified README generator for the developer on the go. You can simply answer a few prompts and allow the program to generate a markdown file for you to include with all of your future builds.
 
