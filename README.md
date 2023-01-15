@@ -7,6 +7,8 @@
 
 - 🔭 I'm currently working on [Why-README-when-you-can-be-me](https://github.com/samiyazaki/Why-README-when-you-can-be-me)
 <img src="02-Challenge\assets\why readme when you can be me.gif" alt = "GIF of a program being utilized to create a README file"></a>
+[Watch this video](https://youtu.be/1yp-sUVDUUg)
+
 ## This is a simplified README generator for the developer on the go. You can simply answer a few prompts and allow the program to generate a markdown file for you to include with all of your future builds.
 
 This project is a command-line tool that generates a markdown file for a README. The user runs the script by using the command node index.js, and then the script prompts the user with a series of questions to gather information about their project. The user provides the necessary information for each question and then the script will use this information to generate a markdown file for the README. The markdown file will be saved in the root directory with the name "README.md". The user can then open the README.md file to view the generated markdown and edit it as needed.
