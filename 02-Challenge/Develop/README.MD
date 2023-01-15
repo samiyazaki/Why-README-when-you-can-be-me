@@ -30,10 +30,10 @@
   Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
   
   ## Questions
-  This is my GitHub Username: Samiyazaki
+  This is my GitHub Username: samiyazaki
 
-  This is a link to my GitHub account: https://github.com/samiyazaki
+  This is a link to my GitHub account: 
 
-  If you'd like to reach out to me by email, here's the info: smsmiyazaki@gmail.com
+  If you'd like to reach out to me by email, here's the info: smsmiyazaki@gmail.co
   
   
